@@ -45,3 +45,12 @@ for(city of citys){
     console.log ("city =", city.length, city);
 }
 
+
+let names = ["kartik", "nikhil", "tanmay", "ankush", "shubham", "abhi", "swapnil" ];
+
+console.log(names.length);
+
+for(name of names){
+    console.log("@",name , name.length);
+}
+
