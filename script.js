@@ -46,11 +46,21 @@ for(city of citys){
 }
 
 
-let names = ["kartik", "nikhil", "tanmay", "ankush", "shubham", "abhi", "swapnil" ];
+let names = ["kartik", "nikhil", "tanmay", "ankush\n", "shubham", "abhi", "swapnil\n" ];
 
-console.log(names.length);
+// console.log(names.length);
 
-for(name of names){
-    console.log("@",name , name.length);
+for(Name of names){
+    console.log(Name, Name.length);
 }
 
+
+let students = ["a", "b", "c", "d", "e"];
+
+for(student of students){
+    console.log("studenet name of ", student);
+}
+
+let result = names + students;
+
+console.log(result);
