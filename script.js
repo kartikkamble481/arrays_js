@@ -64,3 +64,11 @@ for(student of students){
 let result = names + students;
 
 console.log(result);
+
+
+let cities = ["mumbai", "pune", "goa"];
+
+for (let city of cities){
+    console.log(city.toUpperCase());
+}
+
