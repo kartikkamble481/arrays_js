@@ -143,3 +143,48 @@ let fooditems = ["apple", "potato", "orange", "litchi",];
 console.log(fooditems);
 console.log(fooditems.toString());
 console.log("deleted = " , deleteditem);
+
+let marks = [10, 20 , 30, 40, 50, ];
+
+marks.push(60, 70, 80, 90, 100);
+
+console.log("push method = ", marks);
+
+marks.pop();
+
+console.log("pop method = ",marks);
+
+console.log("toString method = ", marks.toString());
+
+// concat method arrays in js 
+
+let boys = ["kartik", "nikhil", "tanmay"];
+
+let grils = ["nikita", "shweta", "arpita"];
+
+let equal = grils.concat(boys);
+
+console.log("concat method =", equal);
+
+console.log(boys);
+console.log(grils);
+
+
+// unshipt() method in arrays in js 
+
+let raper = ["mc_stan", "mc_gavti", "raftar", "devine", "krishna"];
+
+raper.unshift("sambata");
+
+console.log("unShift method = ", raper);
+
+
+// shiift() method in arrays in js 
+
+let singer = ["arjit singh", "karan ahuja", "ajay-atul", "lata mangeshkar"];
+
+let val = singer.shift();
+
+console.log("deleted = " , val);
+
+console.log(singer);
