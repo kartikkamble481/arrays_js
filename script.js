@@ -99,9 +99,47 @@
 // console.log(`ave points of the student = ${avg}`);
 
 
-let names = ["kartik", "oviiixii", "vaiduu", "kritii", "kamble"];
+// let names = ["kartik", "oviiixii", "vaiduu", "kritii", "kamble"];
 
-for(let name of names ){
-    console.log(` ${name.toUpperCase()}`);
+// for(let name of names ){
+//     console.log(` ${name.toUpperCase()}`);
+// }
+
+
+// practice set 2 in arrays in js 
+
+console.log("practice set 2 arrays in js ");
+
+let items = [250, 645, 300, 900, 50];
+
+// let i = 0;
+
+// for (let val of items){
+//     let offer = val / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`value after offer = ${items[i]}`);
+//     i++;
+
+// }
+
+for(let i = 0; i < items.length; i++ ) {
+    let offer = items[i] / 10;
+    items[i] -= offer;
 }
 
+console.log(items);
+
+
+// push arrays in js & pop arrays in js 
+
+let fooditems = ["apple", "potato", "orange", "litchi",];
+
+ fooditems.push("chips", "kurkure", "peru", "chiku");
+ console.log(fooditems);
+ console.log(fooditems.toString())
+
+ let deleteditem = fooditems.pop();
+
+console.log(fooditems);
+console.log(fooditems.toString());
+console.log("deleted = " , deleteditem);
