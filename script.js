@@ -188,3 +188,50 @@ let val = singer.shift();
 console.log("deleted = " , val);
 
 console.log(singer);
+
+
+
+// slice method arrays in js 
+
+ let friends = ["kartik", "tanmay", "nikhil", "swapnil", "abhi", "raj"];
+
+ console.log("deleted = ", friends.slice(5));
+
+ console.log(friends);
+
+ // splice arrays in js 
+
+
+ let num = [1 , 2, 3, 4, 5, 6, 7];
+
+  num.splice(2, 5,  "03, 04, 05, 06, 07 , 08, 09 , 00 " );
+
+  console.log("num =", num);
+
+
+
+  // practice set 2 in arrys method in js 
+
+  let store_companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+
+  console.log( "store companies =", store_companies);
+
+  store_companies.shift();
+
+  console.log("delete Bloomberg", store_companies);
+
+
+store_companies.splice(1,"1","Ola");
+
+console.log("replace ola ", store_companies);
+
+
+store_companies.push("Amazon");
+
+console.log("add amazon ", store_companies);
+
+
+
+
+
